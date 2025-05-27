@@ -67,7 +67,9 @@ namespace SerialPortMonitor
             // 
             // textBoxLog
             // 
-            this.textBoxLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxLog.Location = new System.Drawing.Point(12, 50);
             this.textBoxLog.Multiline = true;
             this.textBoxLog.Name = "textBoxLog";
@@ -132,13 +134,12 @@ namespace SerialPortMonitor
             // checkBoxShowData
             // 
             this.checkBoxShowData.AutoSize = true;
-            this.checkBoxShowData.Location = new System.Drawing.Point(10, 240);
+            this.checkBoxShowData.Location = new System.Drawing.Point(12, 240);
             this.checkBoxShowData.Name = "checkBoxShowData";
             this.checkBoxShowData.Size = new System.Drawing.Size(72, 16);
             this.checkBoxShowData.TabIndex = 10;
             this.checkBoxShowData.Text = "顯示數據";
             this.checkBoxShowData.UseVisualStyleBackColor = true;
-           
             // 
             // labelSaveCount
             // 
@@ -201,6 +202,7 @@ namespace SerialPortMonitor
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.ColorDialog colorDialog1;
