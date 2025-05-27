@@ -1,2 +1,2 @@
 # SerialPortMonitor
-# By Peter Chen fir git operation testing
+# By Peter Chen for git operation testing
